@@ -13,6 +13,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
+- macOS Sequoia
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
