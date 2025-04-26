@@ -5,6 +5,14 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+<h2>List of Prerequisites</h2>
+
+- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) (for reference)
+- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
+- Microsoft Azure (Virtual Machines/Compute)  
+- Windows App for macOS
+- Remote Desktop
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -17,40 +25,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - macOS Sequoia
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
-
-- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
-- Microsoft Azure (Virtual Machines/Compute)  
-- Windows App for macOS (needed for RDP to Windows VM in Azure)
-- Remote Desktop Connection
-
 <h2>Installation Steps</h2>
 
-<p>
-<img width="800" alt="DAD7" src="https://github.com/user-attachments/assets/d15cbaa1-35a8-47dc-80fa-e81db8cba77f" />
-</p>
+<img width="800" alt="OT2" src="https://github.com/user-attachments/assets/1bd02ffe-5a62-42a9-a1fc-f3a7d09a3de4" />
 
-<p>
-- Now, locate the flag and yellow tringle at the top right of the sreen in Server Manager and click on it.
-</p>
-<p>- Next, select Promote this server to a domain controller.</p>
-<br />
+
+- In Azure, create a VM with the same configurations as before and name it osTicket-vm. You can refer back to this previous project if needed:
+[Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
+
+- [osTicket Installation Files](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0) 
+
+<p>- Log in to the osTicket-vm, copy the osTicket Installation Files link above, and paste it into the browser. This will take you to the zip file containing what we need to install osTicket to the VM.</p>
+<p>- Yes, it is a large file but click Download anyway.</p>
+<p>- Don't "Open file" instead click the folder icon to open the file where it is. Downloads.</p>
+ <br/>
+
+<img width="800" alt="OT3" src="https://github.com/user-attachments/assets/41493ab6-9f85-4142-9124-c2d8f108f22f" />
+
+<p>- From Downloads, drag the zip file to the deskstop.</p>
+<br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="DAD8" src="https://github.com/user-attachments/assets/59bd513e-b628-44f3-9cb4-9a83cfc6989d" />
+      <img width="1000" alt="OT4" src="https://github.com/user-attachments/assets/146f985b-d0b3-481f-aff2-eb1d85845cdb" />
     </td>
     <td>
-      <img width="1000" alt="DAD9" src="https://github.com/user-attachments/assets/55e038e6-f13b-4388-bb5a-e13f3d33baa2" />
+      <img width="1000" alt=<"OT5" src="https://github.com/user-attachments/assets/8315b55b-6b12-4cb3-8c18-25d014fc821d" />
     </td>
   </tr>
 </table>
-<p>
- - Under "Select the deployment operation", select Add a new forest and name it mydomain.com -> click Next.
-<p> - For the DSRM password, just use Password1. We will not use this at all. Click Next.</p>
-<br />
+<p>- Right-click the folder and select Extract All...</p>
+<p>- Confirm the correct destination (Desktop) and click Extract.</p>
+<br/>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
