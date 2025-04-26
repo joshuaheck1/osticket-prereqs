@@ -18,6 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
 - Microsoft Azure (Virtual Machines/Compute)
 - osTicket Installation Files
 - Windows App for macOS (needed for RDP to Windows VM in Azure)
