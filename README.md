@@ -10,6 +10,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- MySQL
 
 <h2>Operating Systems Used </h2>
 
