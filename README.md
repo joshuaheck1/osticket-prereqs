@@ -165,11 +165,36 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Now, back to the osTicket Installation Files and install a couple more files.</p>
-<p>- From osTicket-Installation-Files, install the VC Redistributable file (VC_redist.86). Click Yes and let it do it's thing.</p>
-<p>- Next, we'll install MySQL 5.5.62. MySQL is a database that osTicket is going to use to store all of our data. The data will be all the user accounts, ticketing information, and everything we do in osTicket. This will all be stored in the database on the backend. </p>
-<p>- Download (mysql-5.5.62-win32)</p>
+<p>- Run the installer for MySQL. Choose "Typical" for Setup Type and click Next. See Figure 17 </p>
+<p>- Once Install is complete, check the box next to "Launch the MySQL Instance Configuration Wizard", and click Finish.</p>
+ </p> Click Next to start the configuration wizard.</p>
 <br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT20" src="https://github.com/user-attachments/assets/67164ce9-a990-4cf0-8c9e-4fbf926dcce6" />
+    </td>
+    <td>
+      <img width="1000" alt="OT21" src="https://github.com/user-attachments/assets/55f3d36b-e17c-41dc-8fbc-e2d9f41d9f23" />
+    </td>
+  </tr>
+</table>
+<p>- Select "Standard Configuration", and click Next. See Figure 19</p>
+<p>- We'll leave the next options alone and hit Next as shown in Figure 20.</p>
+<br/>
+
+<img width="600" alt="OT22" src="https://github.com/user-attachments/assets/ee7d67a1-c2d8-4be9-af92-45a13a4f972c" />
+
+<p>- Okay, we've done a lot of jumping from folder to folder and changing windows to this point. Stand up, stretch, get something to drink, and maybe a snack so we can get locked in. This next step is beyond SUPER IMPORTANT! Absolutely DO NOT MESS THIS UP! (No Pressure) 😏</p>
+<p>- Just type the word ROOT in both boxes. Yes, ROOT in all caps. </p>
+<p>- Later on, the username will be root but the password is ROOT. This would be really bad in the real world but we're keeping simple for this project. A ton of people struggled with this part in the lab. The huge issue is we won't know its wrong until the end when osTicket fails to launch. </p>
+<br/>
+
+
+
+
+
 
 
 
