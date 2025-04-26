@@ -24,7 +24,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)  
 - Windows App for macOS (needed for RDP to Windows VM in Azure)
 - Remote Desktop Connection
-- MySQL
 
 <h2>Installation Steps</h2>
 
