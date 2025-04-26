@@ -110,14 +110,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Next, install the Rewrite Module. (rewrite_amd64_en-US.msi) Agree and click Next to everything.</p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT12" src="https://github.com/user-attachments/assets/ae666c73-a7ef-48c5-9518-47c8a22e5c1c" />
+    </td>
+    <td>
+      <img width="1000" alt="OT13" src="https://github.com/user-attachments/assets/623964cf-0bb2-4ff1-8c57-d669e676135c" />
+    </td>
+  </tr>
+</table>
+<p>- Create a directory on the C drive called PHP. </p>
+<p>- Navigate to Windows(C:) via File Explorer and create a new folder named "PHP". </p>
+<p>- Back to the osTicket Installation Files, right-click the (php-7.3.8-nts-Win32-VC15-x86) file and select Extrat All...</p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT14" src="https://github.com/user-attachments/assets/0efbd85d-8f29-4e54-8ae5-f433053f926a" />
+    </td>
+    <td>
+      <img width="1000" alt="OT15" src="https://github.com/user-attachments/assets/1f354857-d088-408d-a75b-b67e995db66b" />
+    </td>
+  </tr>
+</table>
+<p>- Instead of just extracting right away, click Browse, navigate to Windows(C:), and select the new PHP folder we just created.</p>
+<p>- Confirm the Destination and click Extract. After its finished, you can open the PHP folder and see all the PHP files we just installed for osTicket.</p>
+<br/>
 
-
-
-
-
-
-
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT16" src="https://github.com/user-attachments/assets/9231bade-a226-4d7d-b1cf-fe8c3b3eaea9" />
+    </td>
+    <td>
+      <img width="1000" alt="OT17" src="https://github.com/user-attachments/assets/47a41d2f-ec6e-4d42-a806-0075137c61e0" />
+    </td>
+  </tr>
+</table>
+<p>- Now, back to the osTicket Installation Files and install a couple more files.</p>
+<p>- From osTicket-Installation-Files, install the VC Redistributable file (VC_redist.86). Click Yes and let it do it's thing.</p>
+<p>- Next, we'll install MySQL 5.5.62. MySQL is a database that osTicket is going to use to store all of our data. The data will be all the user accounts, ticketing information, and everything we do in osTicket. This will all be stored in the database on the backend. </p>
+<p>- Download (mysql-5.5.62-win32)</p>
+<br/>
 
 
 
