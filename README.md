@@ -59,21 +59,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Right-click the folder and select Extract All...</p>
 <p>- Confirm the correct destination (Desktop) and click Extract. The folder should be called "osTicket-Installation-Files"</p>
 <p>- Once the folder is finished extracting, you may have to minimize a window to see it. It should appear by the Browser icon on the Desktop.</p>
-<p>- We will use the files in this folder to install osTicket. I moved the install folder to the top right of my screen (for easy locate) and moved the zip file to a bottom corner to ignore for the rest of the lab. (This was to prevent mixing them up because its about to get saucy. 😏)</p>
+<p>- We will use the files in this folder to install osTicket. I moved the install folder to the top right of my screen (for easy locate) and moved the zip file to a bottom corner to ignore for the rest of the lab. This was to prevent mixing them up because its about to get saucy. 😏 (You can move the zip file to the recycle bin. I didn't realize that til later in the lab.)</p>
 <br/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<table>
+  <tr>
+    <td>
+      <img width="1000" height="250" alt="OT6" src="https://github.com/user-attachments/assets/433aeaa6-dc4b-4cbb-9456-9e3cff806dcd" />
+    </td>
+    <td>
+      <img width="1000" height="250" alt="OT7" src="https://github.com/user-attachments/assets/28980f89-23d1-4d4f-b963-2379a369dc33" />
+    </td>
+  </tr>
+</table>
+<p>- Now we're going to enable IIS (Internet Information Services) within Windows and ensure CGI is installed as well.</p>
+<p>- From the Start Menu, go to Control Panel and click Uninstall a program.</p>
+<p>- Next, click Turn Windows features on or off. You'll probably want to expand the window that opens.</p>
+<br/>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT8" src="https://github.com/user-attachments/assets/3ea9dc16-d359-4f79-8f2a-19506f13107f" />
+    </td>
+    <td>
+      <img width="1000" alt="OT9" src="https://github.com/user-attachments/assets/1641f3d0-ccff-40e2-8e03-856e3d5b17ff" />
+    </td>
+  </tr>
+</table>
+<p>- In Windows Features, enable Internet Information Services by clicking the box and then expand -> expand World Wide Web Services -> expand Application Development Features.</p>
+<p>- Check the box next to CGI and click OK. Let the install do it's thing and click Finish once it completes. </p>
+<p>- Jump over to the Browser and enter 127.0.0.1</p>
+<p>- The default webpage will be showing now that we installed ISS. Without ISS enbled, if we went to 127.0.0.1, the "Hmmm... can't reach this page" message would appear. </p>
+<br/>
