@@ -7,7 +7,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) (for reference)
+- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) (For reference purposes. Link to download zip file is below.)
 - [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
 - Microsoft Azure (Virtual Machines/Compute)  
 - Windows App for macOS
@@ -57,7 +57,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </tr>
 </table>
 <p>- Right-click the folder and select Extract All...</p>
-<p>- Confirm the correct destination (Desktop) and click Extract.</p>
+<p>- Confirm the correct destination (Desktop) and click Extract. The folder should be called "osTicket-Installation-Files"</p>
+<p>- Once the folder is finished extracting, you may have to minimize a window to see it. It should appear by the Browser icon on the Desktop.</p>
+<p>- We will use the files in this folder to install osTicket. I moved the install folder to the top right of my screen (for easy locate) and moved the zip file to a bottom corner to ignore for the rest of the lab. (This was to prevent mixing them up because its about to get saucy. 😏)</p>
 <br/>
 
 <p>
