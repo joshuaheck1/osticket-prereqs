@@ -19,6 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Remote Desktop / Windows App (macOS)
 - Internet Information Services (IIS)
 - MySQL
+- osTicket
 
 <h2>Operating Systems Used </h2>
 
