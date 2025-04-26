@@ -155,7 +155,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Download (mysql-5.5.62-win32)</p>
 <br/>
 
-
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT18" src="https://github.com/user-attachments/assets/b0e4f2ed-328b-4db6-9ee2-ad2c1f02b72b" />
+    </td>
+    <td>
+      <img width="1000" alt="OT19" src="https://github.com/user-attachments/assets/8cd4289a-ab6e-4e84-893b-0acb823f726e" />
+    </td>
+  </tr>
+</table>
+<p>- Now, back to the osTicket Installation Files and install a couple more files.</p>
+<p>- From osTicket-Installation-Files, install the VC Redistributable file (VC_redist.86). Click Yes and let it do it's thing.</p>
+<p>- Next, we'll install MySQL 5.5.62. MySQL is a database that osTicket is going to use to store all of our data. The data will be all the user accounts, ticketing information, and everything we do in osTicket. This will all be stored in the database on the backend. </p>
+<p>- Download (mysql-5.5.62-win32)</p>
+<br/>
 
 
 
