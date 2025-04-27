@@ -354,11 +354,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Now, you can simply refresh the browser and observe the new draft picks to the extension team. Fly Eagles Fly! 🦅 🏆 </p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT46" src="https://github.com/user-attachments/assets/ae88f162-18eb-4de5-af66-ad7101d4135c" />
+    </td>
+    <td>
+      <img width="1000" alt="OT47" src="https://github.com/user-attachments/assets/a6049c4b-24dc-43a3-bc37-84fcfaea8459" />
+    </td>
+  </tr>
+</table>
+<p>- Next, we need to rename a config file and assign some permissions. </p>
+<p>- Use File Explore and navigate this path: Windows(C:) -> inepub -> wwwroot -> osTicket. Open "include".</p>
+<p>- Within "include", locate the "ost-sampleconfig.php" file. This is the file we need to rename.</p>
+<br/>
 
-
-
-
-
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT48" src="https://github.com/user-attachments/assets/3d07decb-060a-448b-b3a4-716ba195266d" />
+    </td>
+    <td>
+      <img width="1000" alt="OT49" src="https://github.com/user-attachments/assets/e64a4ec1-5a1c-44aa-bf11-2d00a0f87578" />
+    </td>
+  </tr>
+</table>
+<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
+<p>- Now, you can simply refresh the browser and observe the new draft picks to the extension team. Fly Eagles Fly! 🦅 🏆 </p>
+<br/>
 
 
 
