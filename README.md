@@ -167,7 +167,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </table>
 <p>- Run the installer for MySQL. Choose "Typical" for Setup Type and click Next. See Figure 17 </p>
 <p>- Once Install is complete, check the box next to "Launch the MySQL Instance Configuration Wizard", and click Finish.</p>
- </p> Click Next to start the configuration wizard.</p>
+</p>- Click Next to start the configuration wizard.</p>
 <br/>
 
 <table>
@@ -189,7 +189,64 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Okay, we've done a lot of jumping from folder to folder and changing windows to this point. Stand up, stretch, get something to drink, and maybe a snack so we can get locked in. This next step is beyond SUPER IMPORTANT! Absolutely DO NOT MESS THIS UP! (No Pressure) 😏</p>
 <p>- Just type the word ROOT in both boxes. Yes, ROOT in all caps. </p>
 <p>- Later on, the username will be root but the password is ROOT. This would be really bad in the real world but we're keeping simple for this project. A ton of people struggled with this part in the lab. The huge issue is we won't know its wrong until the end when osTicket fails to launch. </p>
+<p>- Click Next, Execute on the next screen, and then Finish.</p>
 <br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT23" src="https://github.com/user-attachments/assets/9713df38-bb52-4b7a-b5ec-1bf21f3302ec" />
+    </td>
+    <td>
+      <img width="1000" alt="OT24" src="https://github.com/user-attachments/assets/8cfd5c58-0513-4465-862b-ca9078059580" />
+    </td>
+  </tr>
+</table>
+<p>- Now that the scary part is over, we are going to Register PHP from within IIS. Open IIS as an Admin from the Start Menu.</p>
+<p>- In IIS, open PHP Manager by double-clicking the icon.</p>
+<p>- Click "Register new PHP version", then click the three dots, and browse to the C drive. Windows(C:). </p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT25" src="https://github.com/user-attachments/assets/918df4c8-2c52-4f02-a6c3-9cfa40046631" />
+    </td>
+    <td>
+      <img width="1000" alt="OT26" src="https://github.com/user-attachments/assets/8777aa50-74e6-4c60-b5f7-f9adca31fb95" />
+    </td>
+  </tr>
+</table>
+<p>- Select PHP and click Open.</p>
+<p>- In PHP, select php-cgi, click Open, and then OK.</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT27" src="https://github.com/user-attachments/assets/048674f6-3ed7-42cc-b11b-2610149f683f" />
+    </td>
+    <td>
+      <img width="1000" alt="OT37" src="https://github.com/user-attachments/assets/8a0ef05c-1589-4359-8ac2-a62ab43ad511" />
+    </td>
+  </tr>
+</table>
+<p>- We need to reload IIS for the PHP registration to take effect.</p>
+<p>- Right-click osTicket-vm in the top-left of IIS and select Stop. You should see a green animation slide across the top bar. </p>
+<p>- Give it a couple seconds. Then, right-click osTicket-vm again and select Start. (You can use the Action buttons on the right side of IIS as well).</p>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
