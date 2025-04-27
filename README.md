@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<img width="800" alt="OT2" src="https://github.com/user-attachments/assets/1bd02ffe-5a62-42a9-a1fc-f3a7d09a3de4" />
+<img width="750" alt="OT2" src="https://github.com/user-attachments/assets/1bd02ffe-5a62-42a9-a1fc-f3a7d09a3de4" />
 
 
 - In Azure, create a VM with the same configurations as before and name it osTicket-vm. You can refer back to this previous project if needed:
@@ -236,16 +236,63 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Give it a couple seconds. Then, right-click osTicket-vm again and select Start. (You can use the Action buttons on the right side of IIS as well).</p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT28" src="https://github.com/user-attachments/assets/fb5dfacd-98f9-4cce-bbe9-106cc942c442" />
+    </td>
+    <td>
+      <img width="1000" alt="OT29" src="https://github.com/user-attachments/assets/c377e374-99c6-4d8c-99a0-ba212b3d8fba" />
+    </td>
+  </tr>
+</table>
+<p>- Now run back to the osTicket Installation Files folder on the Desktop.🏃‍♂️‍➡️ We need to unzip (osTicket-v1.15.8.zip).</p>
+<p>- Right-click osTicket-v1.15.8.zip and select Extract... </p>
+<p>- Go ahead and extract the files into the osTicket-Installation-Files folder. You'll notice the new folder at the top. See Figure 28</p>
+<br/>
 
+<img width="600" alt="OT30" src="https://github.com/user-attachments/assets/dbd3243f-71e4-4150-b6f0-fa3eeb10bdbf" />
 
+<p>- When it finishes extracting the files, double-click the new osTicket-v1.15.8 folder.</p>
+<p>- There will be two folders inside. Scripts and Upload. </p>
+<p>- Pause on this folder and move the window to the side for now. We'll be back for this in a couple seconds.</p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT31" src="https://github.com/user-attachments/assets/d1811c77-75f4-4f00-b2d8-b54b95a42732" />
+    </td>
+    <td>
+      <img width="1000" alt="OT32" src="https://github.com/user-attachments/assets/6c8bb4ae-a65f-45ba-b711-5e0fd7e886b8" />
+    </td>
+  </tr>
+</table>
+<p>- Use File Explorer and navigate to the C drive. (Windows(C:).</p>
+<p>- Open inetpub. Within inetpub, open wwwroot. </p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT33" src="https://github.com/user-attachments/assets/d4928144-2b92-4380-883a-68ca3e5edcc7" />
+    </td>
+    <td>
+      <img width="1000" alt="OT34" src="https://github.com/user-attachments/assets/6d2ea203-60ba-4fb5-9082-1734c954934e" />
+    </td>
+  </tr>
+</table>
+<p>- Now, drag the "upload" folder from "osTicket-v1.15.8" folder and drop into the "wwwroot" folder.</p>
+<p>- DO NOT just copy and paste. I made this mistake during my first run through of the lab and osTicket failed to launch at the end.🤦‍♂️😩  </p>
+<p>- Confirm the "upload" folder actually moved from "osTicket-v1.15.8" and into "wwwroot". See Figure 33</p>
+<br/>
 
+<img width="600" alt="OT35" src="https://github.com/user-attachments/assets/e44f2551-3c10-47ce-88de-7efc70d636ee" />
 
-
-
-
-
+<p>- Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. </p>
+<p>- This is another area where people stuggled during the lab. So double check before moving on. </p>
+<p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
+<br/>
 
 
 
