@@ -386,7 +386,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="500" Height="450" alt="OT50" src="https://github.com/user-attachments/assets/3f262cb8-94f9-437c-979a-42c72cd40b7e" />
+      <img width="396" alt="OT50" src="https://github.com/user-attachments/assets/aec1c679-5b53-42bf-947f-b0794471cc66" />
     </td>
     <td>
       <img width="1000" alt="OT51" src="https://github.com/user-attachments/assets/0dcccb1c-0c7c-4c5e-b285-52036c9386db" />
