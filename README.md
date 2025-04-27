@@ -383,6 +383,57 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT50" src="https://github.com/user-attachments/assets/3f262cb8-94f9-437c-979a-42c72cd40b7e" />
+    </td>
+    <td>
+      <img width="1000" alt="OT51" src="https://github.com/user-attachments/assets/0dcccb1c-0c7c-4c5e-b285-52036c9386db" />
+    </td>
+  </tr>
+</table>
+<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
+<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT52" src="https://github.com/user-attachments/assets/cd2bb0a3-b748-4c38-b8ab-248647364007" />
+    </td>
+    <td>
+      <img width="1000" alt="OT53" src="https://github.com/user-attachments/assets/c4b5c83b-22f1-4495-a123-2e0bcd849f89" />
+    </td>
+  </tr>
+</table>
+<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
+<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT55" src="https://github.com/user-attachments/assets/d8f77a0c-9627-443e-8c6d-8edd2933b5a6" />
+    </td>
+    <td>
+      <img width="1000" alt="OT56" src="https://github.com/user-attachments/assets/59e4ac0f-a103-46ae-83a1-f5acfa6dae2b" />
+    </td>
+  </tr>
+</table>
+<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
+<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<br/>
+
+<img width="350" alt="OT57" src="https://github.com/user-attachments/assets/7cc4e961-0d09-4e42-a7b4-2261f99f4151" />
+
+<p>- Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. </p>
+<p>- This is another area where people stuggled during the lab. So double check before moving on. </p>
+<p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
+<br/>
+
+
+
 
 
 
