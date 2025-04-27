@@ -386,15 +386,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT50" src="https://github.com/user-attachments/assets/3f262cb8-94f9-437c-979a-42c72cd40b7e" />
+      <img width="500" Height="450" alt="OT50" src="https://github.com/user-attachments/assets/3f262cb8-94f9-437c-979a-42c72cd40b7e" />
     </td>
     <td>
       <img width="1000" alt="OT51" src="https://github.com/user-attachments/assets/0dcccb1c-0c7c-4c5e-b285-52036c9386db" />
     </td>
   </tr>
 </table>
-<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
-<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<p>- We need to assign permissions for osTicket to make changes to this file on the backend.</p>
+<p>- In Properties, select the Security tab and click Advanced. </p>
+<p>- Click Disable inheritance.</p>
 <br/>
 
 <table>
@@ -407,35 +408,109 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
-<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<p>- Select "Remove all inherited permissons from this object". </p>
+<p>- Since all the permissions are gone now, click Add.</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="OT55" src="https://github.com/user-attachments/assets/d8f77a0c-9627-443e-8c6d-8edd2933b5a6" />
+      <img width="1000" alt="OT54" src="https://github.com/user-attachments/assets/fb69374c-e4a8-4034-b94b-2dcd99b26c92" />
     </td>
     <td>
-      <img width="1000" alt="OT56" src="https://github.com/user-attachments/assets/59e4ac0f-a103-46ae-83a1-f5acfa6dae2b" />
+      <img width="1000" alt="OT55" src="https://github.com/user-attachments/assets/0ce68638-e626-4b4d-81e8-4ecaeb5a2460" />
     </td>
   </tr>
 </table>
-<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
-<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
+<p>- Click "Select a principal" and then in the box, type "everyone". This would not a good idea in the real world but its okay for this project. </p>
+<p>- Hit "Check Names" and click OK.</p>
+<p>- Next, check "Full control" and click OK.</p>
 <br/>
 
-<img width="350" alt="OT57" src="https://github.com/user-attachments/assets/7cc4e961-0d09-4e42-a7b4-2261f99f4151" />
-
-<p>- Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. </p>
-<p>- This is another area where people stuggled during the lab. So double check before moving on. </p>
-<p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT56" src="https://github.com/user-attachments/assets/e7b45e2e-cc2e-486d-99fa-2cf439909769" />
+    </td>
+    <td>
+      <img width="500" height="450" alt="OT57" src="https://github.com/user-attachments/assets/d48c7a76-2e32-4853-9c73-bcb2285438fa" />
+    </td>
+  </tr>
+</table>
+<p>- Review the permission changes we made, confirm your screen looks like Figure 53, hit Apply, and click OK.</p>
+<p>- We can see our changes here as well. Click OK.</p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT58" src="https://github.com/user-attachments/assets/cd36a756-1ca5-4e09-b40f-4053312ec347" />
+    </td>
+    <td>
+      <img width="1000" alt="OT59" src="https://github.com/user-attachments/assets/a45d41a6-c605-45a5-8941-ad0afe07ff53" />
+    </td>
+  </tr>
+</table>
+<p>- Go back to the osTicket webpage in the browser and click Continue at the bottom of the page. We will finish setting up osTicket here.</p>
+<p>- This is your Help Desk to name how you see fit. So do you boo.</p>
+<p>- The Default email doesn't have to be a real email. Once you got this filled out, scroll down.</p>
+<p>- Put yourself as the Admin User. This email doesn'matter either but it does need to be different from the one above.</p>
+<p>- Username: "adminuser" Password: "Password1". Keep it simple and note this information for later. </p>
+<p>- Before we fill out the Database Settings, we will need to install one last thing to get this information. </p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT60" src="https://github.com/user-attachments/assets/6dc3d06e-30e3-4fa3-956a-dc332b6cac2d" />
+    </td>
+    <td>
+      <img width="1000" alt="OT61" src="https://github.com/user-attachments/assets/6bebe1fa-9e59-4314-a9f4-6ccf7b8c4eed" />
+    </td>
+  </tr>
+</table>
+<p>- We'll make one final visit to the "osTicket-Installation-Files" on our Desktop and install HeidiSQL.</p>
+<p>- HeidiSQL is an application that allows us to make a connection to our database, configure it, and use our Help Desk super powers for the greater good.</p>
+<p>- Find the "osTicket-Installation-Files" folder that's buried under the hundreds on windows we've opened so far. 🤣</p>
+<p>- Select and download "HeidiSQL_12.3.0.6589_Setup". Agree, click Next, and Install. Make sure "Launch HeidiSQL" is checked, click Finish and Skip.</p>
+<p>- Create a new Session Manager. Click +New. Under Settings, User is root and password is ROOT (VERY IMPORTANT). Click Open.</p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT62" src="https://github.com/user-attachments/assets/21120f81-f277-4db9-b013-80712b35c638" />
+    </td>
+    <td>
+      <img width="1000" alt="OT63" src="https://github.com/user-attachments/assets/f57d4bfa-5ae8-4bda-9e1b-01e0e44c75c2" />
+    </td>
+  </tr>
+</table>
+<p>- Right-click the dolphin Unamed, select Create new, and click Database.</p>
+<p>- Name the database "osTicket". This is another IMPORTANT step towards our success. Click OK. See Figure 60</p>
+<br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT64" src="https://github.com/user-attachments/assets/d43b69fc-9119-4b54-a4a3-e8cc672c671b" />
+    </td>
+    <td>
+      <img width="1000" alt="OT65" src="https://github.com/user-attachments/assets/81757509-c7c7-438a-bc28-90ae592bb7ae" />
+    </td>
+  </tr>
+</table>
+<p>- Now back to the browser to complete the Database Settings</p>
+<p>- MySQL Database: osTicket - MySQL Username: root - MySQL Password: ROOT</p>
+<p>- Click Install Now.</p>
+<p>- CONGRATULATIONS! We did it! osTicket has been successfully installed. </p>
+<p>- Take note of the URLs on Figure 62. We'll break these down in the next project, but check out the Stall Control Panel. </p>
+<br/>
 
+<img width="600" alt="OT66" src="https://github.com/user-attachments/assets/8ab1af80-d866-45ee-9c74-979b0c408f0d" />
+
+<p>- There's just something about riding off in the sunset. Lets take a moment to reflect upon the journey we just embarked.</p>
+<br/>
 
 
 
