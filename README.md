@@ -380,7 +380,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </tr>
 </table>
 <p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
-<p>- Now, you can simply refresh the browser and observe the new draft picks to the extension team. Fly Eagles Fly! 🦅 🏆 </p>
+<p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
 <br/>
 
 
