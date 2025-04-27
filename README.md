@@ -512,7 +512,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- There's just something about riding off in the sunset. Lets take a moment to reflect upon the journey we just embarked.</p>
 <br/>
 
+<h2>Summary</h2>
 
-
+<p>
+This concludes our project. Man this was a task, but we powered through it! At times it seemed overwhelming, but it was cool to see the hard work pay off at the end. We'll dive into osTicket and do some post-install configurations in the next project. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+</p>
+<br />
 
 
