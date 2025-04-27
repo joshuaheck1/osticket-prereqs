@@ -294,6 +294,71 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
 <br/>
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" height="350" alt="OT38" src="https://github.com/user-attachments/assets/27d503c2-ef04-4100-b1bf-abf209c1c014" />
+    </td>
+    <td>
+      <img width="1000" alt="OT39" src="https://github.com/user-attachments/assets/e6f78834-d85d-4958-b823-2adfcc5065db" />
+    </td>
+  </tr>
+</table>
+<p>- Since we're already in IIS. Lets check our work and attempt to load the osTicket site..</p>
+<p>- In IIS on the left side of the screen, under Connections, go in this order:</p> 
+ <p> osTicket-vm -> Sites -> Default Web Site -> osticket. (See Figure 35) /p>
+<p>- Then on the left side, under Browse Folder, click Browse *:80 (http).</p>
+<p>- Well looky there! We did it! Trust me when I say this is a GREAT sign. This means that we've done evrything correct up to this point.🎉 </p>
+<p>- Alright, settle down because there's still work to be done. We need to grab some missing extensions before we can party. See Figure 36</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT40" src="https://github.com/user-attachments/assets/a304e8c4-1876-4289-ae04-041c6dd65b68" />
+    </td>
+    <td>
+      <img width="1000" alt="OT41" src="https://github.com/user-attachments/assets/ab2161b6-9cc7-47bc-80da-303396c58671" />
+    </td>
+  </tr>
+</table>
+<p>- In IIS, go Sites -> Default Web Site -> osTicket. Double-click PHP. </p>
+<p>- Under PHP Extensions, click "Enable or disable an extension". This opens PHP Extensions and will allow us to enable the ones we're missing.</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT42" src="https://github.com/user-attachments/assets/577fd5f4-171d-4e7b-8a3b-a2fb330f171b" />
+    </td>
+    <td>
+      <img width="1000" alt="OT43" src="https://github.com/user-attachments/assets/8419caa7-9ee7-410f-a61b-d6bf51f24ccf" />
+    </td>
+  </tr>
+</table>
+<p>- Scroll through and locate "php_imap.dll". Select and Enable. </p>
+<p>- Scroll some more and locate "php_intl.dll". Select and Enable.</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="OT44" src="https://github.com/user-attachments/assets/abe343fb-2dd3-41c3-8bc0-462075b4b331" />
+    </td>
+    <td>
+      <img width="1000" alt="OT45" src="https://github.com/user-attachments/assets/9ec4be3e-bafc-4381-8618-64774db13552" />
+    </td>
+  </tr>
+</table>
+<p>- Last but not least, scroll through and locate "php_opcache.dll". Select and Enable. </p>
+<p>- Now, you can simply refresh the browser and observe the new draft picks to the extension team. Fly Eagles Fly! 🦅 🏆 </p>
+<br/>
+
+
+
+
+
+
 
 
 
