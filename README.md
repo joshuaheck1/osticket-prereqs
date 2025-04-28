@@ -7,11 +7,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) (For reference purposes. Link to download zip file is below.)
 - [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
-- Microsoft Azure (Virtual Machines/Compute)  
-- Windows App for macOS
-- Remote Desktop
+- [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)(For reference purposes. Link to download zip file is below.)
 
 <h2>Environments and Technologies Used</h2>
 
