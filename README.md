@@ -509,13 +509,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="600" alt="OT66" src="https://github.com/user-attachments/assets/8ab1af80-d866-45ee-9c74-979b0c408f0d" />
 
+
 <p>- There's just something about riding off into the sunset. Lets take a moment to reflect upon the journey we just embarked.</p>
 <br/>
 
 <h2>Summary</h2>
 
 <p>
-This concludes our project. Man this was a task, but we powered through it! I know at times it seemed overwhelming, but it was cool to see the hard work pay off at the end. We'll dive into osTicket and do some post-install configurations in the next project. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+This concludes our project. We successfully installed osTicket on our Windows virtual machine! Most companies use some form of a ticketing system in their every day operations. This project gave me the opportunity to experince a sample of what all is required to simply load a web page you might use at work. We'll dive into osTicket and do some post-install configurations in the next project. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
 </p>
 <br />
 
