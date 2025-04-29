@@ -185,7 +185,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="600" alt="OT22" src="https://github.com/user-attachments/assets/ee7d67a1-c2d8-4be9-af92-45a13a4f972c" />
 
 <p>- Okay, we've done a lot of jumping from folder to folder and changing windows to this point. Stand up, stretch, get something to drink, and maybe a snack so we can get locked in. This next step is beyond SUPER IMPORTANT! Absolutely DO NOT MESS THIS UP! (No Pressure) 😏</p>
-<p>- Just type the word ROOT in both boxes. Yes, ROOT in all caps. </p>
+<p>- ⚠️ Just type the word ROOT in both boxes. Yes, ROOT in all caps. ⚠️ </p>
 <p>- Later on, the username will be root but the password is ROOT. This would be really bad in the real world but we're keeping simple for this project. A ton of people struggled with this part in the lab. The huge issue is we won't know its wrong until the end when osTicket fails to launch. </p>
 <p>- Click Next, Execute on the next screen, and then Finish.</p>
 <br/>
@@ -280,14 +280,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Now, drag the "upload" folder from "osTicket-v1.15.8" folder and drop into the "wwwroot" folder.</p>
+<p>- ⚠️ Now, drag the "upload" folder from "osTicket-v1.15.8" folder and drop into the "wwwroot" folder. ⚠️</p>
 <p>- DO NOT just copy and paste. I made this mistake during my first run through of the lab and osTicket failed to launch at the end.🤦‍♂️😩  </p>
 <p>- Confirm the "upload" folder actually moved from "osTicket-v1.15.8" and into "wwwroot". See Figure 33</p>
 <br/>
 
 <img width="600" alt="OT35" src="https://github.com/user-attachments/assets/e44f2551-3c10-47ce-88de-7efc70d636ee" />
 
-<p>- Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. </p>
+<p>- ⚠️ Within "wwwroot", rename "upload" to "osTicket" exactly like in Figure 34. ⚠️ </p>
 <p>- This is another area where people stuggled during the lab. So double check before moving on. </p>
 <p>- Next, we'll need to reload IIS again. (Stop, Start the web server) From the Start Menu, run IIS as an Admin. Right-click osTicket-vm and click Stop. Wait a couple seconds, then right-click osTicket-vm and click Start. Refer back to Figure 26 and Figure 27 if needed.</p>
 <br/>
@@ -377,7 +377,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </td>
   </tr>
 </table>
-<p>- Rename "ost-sampleconfig.php" to "ost-config.php". Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
+<p>- ⚠️ Rename "ost-sampleconfig.php" to "ost-config.php". ⚠️ Name it exactly like you see in Figure 45. This is another IMPORTANT step in our success later and everybody wants the Pizza Party! Andolini's Pizzeria is straight 🔥 if you're ever in Oklahoma! 😁  </p>
 <p>- Now that we got the config file renamed correctly, right-click "ost-config.php" and click Properties.</p>
 <br/>
 
@@ -485,7 +485,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </tr>
 </table>
 <p>- Right-click the dolphin Unamed, select Create new, and click Database.</p>
-<p>- Name the database "osTicket". This is another IMPORTANT step towards our success. Click OK. See Figure 60</p>
+<p>- ⚠️ Name the database "osTicket".⚠️ This is another IMPORTANT step towards our success. Click OK. See Figure 60</p>
 <br/>
 
 <table>
