@@ -5,12 +5,12 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-<h2>Prerequisites</h2>
+<h2>📋 Prerequisites</h2>
 
 - [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
 - [osTicket Installation Files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)(For reference purposes. Link to download zip file is below.)
 
-<h2>Environments and Technologies Used</h2>
+<h2>💻 Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Windows App (macOS)
@@ -19,12 +19,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL
 - osTicket
 
-<h2>Operating Systems Used </h2>
+<h2>👨‍💻 Operating Systems Used </h2>
 
 - macOS Sequoia
 - Windows 10</b> (21H2)
 
-<h2>Installation Steps</h2>
+<h2>🧰 Installation Steps</h2>
 
 <img width="750" alt="OT2" src="https://github.com/user-attachments/assets/1bd02ffe-5a62-42a9-a1fc-f3a7d09a3de4" />
 
@@ -511,7 +511,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>- There's just something about riding off into the sunset. Lets take a moment to reflect upon the journey we just embarked.</p>
 <br/>
 
-<h2>Conclusion</h2>
+<h2>✅ Conclusion</h2>
 
 <p>This concludes our project. We successfully installed osTicket on our Windows virtual machine! Most companies use some form of a ticketing system in their every day operations. This project gave me the opportunity to experince a sample of what all is required to simply load a web page you might use at work. We'll dive into osTicket and do some post-install configurations in the next project. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
 </p>
